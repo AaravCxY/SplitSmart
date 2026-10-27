@@ -58,6 +58,13 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "SplitSmart API is running"
+  });
+});
+
 // Mount API routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
