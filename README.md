@@ -1,5 +1,9 @@
 # SplitSmart
 
+
+Link for demo-
+https://drive.google.com/file/d/1UKkMMCuSH9B1ZA1HFW99hsByXttEWKKV/view?usp=drivesdk
+
 > **Shared expenses. Clear balances. Fair settlements.**
 
 SplitSmart is a full-stack financial productivity web application built for students, roommates, and friends sharing travel or living expenses. It centralizes shared payments, calculates individual financial shares, provides a real-time balance ledger with mathematical conservation guarantees, and calculates an optimal, low-transaction settlement plan using an \(O(N \log N)\) greedy debt-matching algorithm.
